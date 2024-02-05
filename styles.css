@@ -1,0 +1,107 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+h1, h2, h3, h4{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 1.8rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+.container{
+    border: 3em solid ;
+    border-color: rgb(225,187,2);
+    padding: 10vh 5vw 3vh 5vw;
+}
+header h3{
+    margin: 0;
+}
+header a{
+    color: rgb(225,187,2);
+    font-family: 'Teko', sans-serif;
+
+}
+.number p{
+    font-size: 10rem;
+    color:rgb(225,187,2) ;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+}
+.first_string, .second_string{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+
+}
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer_container{
+    width: 65%;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+.number{
+    border-bottom: 18px solid rgb(225,187,2);
+    width: 20vw;
+    
+}
+.first_string .left .number{
+    width: 10vw;
+}
+
+.first_string .number{
+    transform: rotate(270deg);
+
+}
+.first_string .overlay{
+    position: relative;
+    bottom: 14.5vh;
+}
+.first_string h2, h3{
+    margin-left: 5vw ;
+}
+.block{
+    width: 3vw;
+    height: 1.5vh;
+    background-color: #040108;
+    margin-right: 2vw;
+}
+.first_string .top{
+    display: flex;
+}
+.second_string .left{
+    grid-column: 2 / 2;
+}
+.first_string .right{
+    grid-column: 3 / 3;
+}
+.second_string .right{
+    grid-column: 4 / 4;
+}
+.second_string .top{
+    transform: rotate(270deg);
+    transform-origin: top left;
+    margin-left: 5vw;
+}
+.second_string .overlay{
+    position: relative;
+    bottom: 14.5vh;
+}
